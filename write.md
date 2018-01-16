@@ -453,7 +453,7 @@ with tf.Session() as sess:
 
 ---
 
-To explain more about how i got here, i was kinda lucky, i first thought of doing ssome trial and error, which proved to take a very longer time than i expected to process ( since i ran this on my GPU), i then took to the forums and started reading what others where saying about the matter , and i also did some searches on the side, i thaen discovered a couple of people whom these settings worked for and thus 
+To explain more about how i got here, i was kinda lucky, i first thought of doing some trial and error, which proved to take a very longer time than i expected to process ( since i ran this on my GPU), i then took to the forums and started reading what others where saying about the matter , and i also did some searches on the side, i then discovered a couple of people whom these settings worked for and thus 
 tried it on my own code. The exercises that we did in the class did help steer my questions and helped me find the right information in a much easier manner than trial and error ( as i found out is not a good way to go about this)
 
 
