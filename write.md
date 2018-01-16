@@ -453,6 +453,10 @@ with tf.Session() as sess:
 
 ---
 
+To explain more about how i got here, i was kinda lucky, i first thought of doing ssome trial and error, which proved to take a very longer time than i expected to process ( since i ran this on my GPU), i then took to the forums and started reading what others where saying about the matter , and i also did some searches on the side, i thaen discovered a couple of people whom these settings worked for and thus 
+tried it on my own code. The exercises that we did in the class did help steer my questions and helped me find the right information in a much easier manner than trial and error ( as i found out is not a good way to go about this)
+
+
 ## Previous Attempts:
 Here are a couple different settings I used during testing before deciding on this final set. There were a lot more attempts with varying preprocessing techniques, augmentation, and the architecture. They produced results lower than .9 for the test accuracy and a low validation accuracy hovering around .93
 
@@ -662,4 +666,8 @@ with tf.Session() as sess:
 
 
 ![png](first5.png)
+
+## Problems that could burden the model while calcifying the new signs 
+the background of a traffic sign will cause confusion in the model classification, this is really noticeable by the test that i ran on a black background sign which was identified at a rate of 100%, another problem would be if one of the new 5 signs does not belong on the training data that we are training our model on, the model will not be able to calcify it correctly since it does not have a reference to train with , in which case the classification will fail !00% of the times
+
 
