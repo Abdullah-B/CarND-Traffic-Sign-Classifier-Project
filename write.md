@@ -668,6 +668,6 @@ with tf.Session() as sess:
 ![png](first5.png)
 
 ## Problems that could burden the model while calcifying the new signs 
-the background of a traffic sign will cause confusion in the model classification, this is really noticeable by the test that i ran on a black background sign which was identified at a rate of 100%, another problem would be if one of the new 5 signs does not belong on the training data that we are training our model on, the model will not be able to calcify it correctly since it does not have a reference to train with , in which case the classification will fail !00% of the times
+the background of a traffic sign will cause confusion in the model classification, this is really noticeable by the test that i ran on a black background sign which was identified at a rate of 100%, another problem would be if one of the new 5 signs does not belong on the training data that we are training our model on, the model will not be able to calcify it correctly since it does not have a reference to train with , in which case the classification will fail 100% of the times
 
 
